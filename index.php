@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <title>Alvin Rey Granada Portfolio | Resume & CV</title>
+      <!-- Main CSS File -->
+      <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css">
+      <!-- Main Color File -->
+      <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/skins/light.css">
+
+
+   </head>
+   <body>
+      <!-- Loader Starts -->
+      <div class="loader-wrapper">
+         <div class="loader">
+         </div>
+         <div class="loader-section section-left"></div>
+         <div class="loader-section section-right"></div>
+         </div>
+      <!-- Loader Ends -->
+      <!-- Home Section Starts -->
+      <div class="main-section home active">
+         <!-- Background shape Starts -->
+         <img src="img/shape3.png" alt="">
+         <!-- Background shape Ends -->
+         <!-- Main Home Content Starts -->
+         <div class="home-content">
+            <div>
+               <span class="hello">Hello!</span>
+               <h1>I am <span>Alvin Rey</span>
+               </h1>
+               <p>A Web Developer and SEO Specialist with 14 years experience living in Davao City.</p>
+            </div>
+         </div>
+         <!-- Main Home Content Ends -->
+         <!-- Call To Actions Starts -->
+         <div class="call-to-actions">
+            <!-- Open Portfolio Section Starts -->
+            <button id="open-portfolio" class="btn-primary">
+               <span class="letter-wrap">My Portfolio</span>
+            </button>
+            <!-- Open Portfolio Section Ends -->
+            <!-- Open About Section Starts -->
+            <a href="#" id="open-about" class="btn-secondary">
+               <div>
+                  <span> About Me </span>
+                  <span> About Me </span>
+               </div>
+            </a>
+            <!-- Open About Section Ends -->
+         </div>
+         <!-- Call To Actions Ends -->
+         <!-- Contacts Starts -->
+         <div class="contacts">
+            <ul>
+               <li>+639271531172</li>
+               <li>granadaalvinrey@gmail.com</li>
+               <li>Davao City, Philippines</li>
+            </ul>
+            <!-- Social Media Profiles Starts -->
+            <div class="social">
+              <ul>
+                 <!--<li>
+                    <a href="#" target="_blank">
+                    <i class="icon-twitter"></i>
+                    </a>
+                 </li>-->
+                 <li>
+                  <a href="https://www.linkedin.com/in/ambengran/" target="_blank">
+                  <i class="icon-linkedin"></i>
+                  </a>
+               </li>
+                 <li>
+                    <a href="https://github.com/ambengran" target="_blank">
+                    <i class="icon-github"></i>
+                    </a>
+                 </li>
+                 <!--<li>
+                    <a href="#" target="_blank">
+                    <i class="icon-instagram"></i>
+                    </a>
+                 </li>-->
+              </ul>
+            </div>
+           <!-- Social Media Profiles Ends -->
+         </div>
+         <!-- Contacts Ends -->
+         <!-- Freelance Availability Starts -->
+         <div class="freelance">
+            <span>Available</span>
+         </div>
+         <!-- Freelance Availability Ends -->
+         <!-- Copyright Starts -->
+         <div class="leftbottom">
+           <span>&copy; 2026 Alvin Rey</span>
+           <a href="blog.html">
+             My Blog
+           </a>
+         </div>
+         <!-- Copyright Ends -->
+      </div>
+      <!-- Home Section Ends -->
+      <!-- Portfolio Section Starts -->
+      <div class="main-section portfolio-grid">
+         <!-- Back Home Starts -->
+         <div class="back-home" id="back-home">
+            <div class="squares">
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+            </div>
+         </div>
+         <!-- Back Home Ends -->
+         <!-- Portfolio Grid Starts -->
+         <div class="grid-container">
+            <!-- Portfolio Heading Starts -->
+            <div class="heading">
+               <h2>Portfolio</h2>
+               <p>A few recent design and coding projects</p>
+            </div>
+            <!-- Portfolio Heading Ends -->
+            <!-- Portfolio Items Starts -->
+            <ul class="grid">
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-1-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Lularum</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-2-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Garwood</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-3-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Outposter</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-4-420x420-v1.jpg" alt="">
+                  <div class="title">
+                     <span>UQ Sport</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-5-420x420-v2.jpg" alt="">
+                  <div class="title">
+                     <span>OZ Mobiles</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-6-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Urbbana</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-7-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Cliqued Digital</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-8-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Reface</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-9-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Taverner</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-10-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>SEQ Snake</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-11-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>SSTC</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-12-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Smoked Garage</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-13-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Addiction Pet</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-14-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Awesome Pawsome</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-15-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Weibo Medical</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+               <!-- Portfolio Single Item Starts -->
+               <li class="item" onclick="openItem(this)">
+                  <img src="https://ambengran.com/wp-content/uploads/2026/07/project-16-420x420-1.jpg" alt="">
+                  <div class="title">
+                     <span>Earth Stone Ovens</span>
+                  </div>
+               </li>
+               <!-- Portfolio Single Item Ends -->
+
+            </ul>
+            <!-- Portfolio Items Ends -->
+         </div>
+         <!-- Portfolio Grid Ends -->
+         <!-- Freelance Availability Starts -->
+         <div class="freelance">
+            <span>Available <span></span></span>
+         </div>
+         <!-- Freelance Availability Ends -->
+      </div>
+      <!-- Portfolio Section Ends -->
+      <!-- Portfolio Items Details Starts -->
+      <div class="portfolio-items">
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-1">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-1-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Lularum</h2>
+                           <span>Shopify</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Ben</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>5 months</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack E-commerce Developer </span>
+                        </li>
+                        <li>
+                           <span> Frameworks : </span>
+                           <span>Shopify</span>
+                        </li>
+                     </ul>
+                     <a href="https://lularum.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-2">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-2-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Garwood</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Ben</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>8 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack Web & SEO Developer </span>
+                        </li>
+                        <li>
+                           <span>Frameworks : </span>
+                           <span>WordPress </span>
+                        </li>
+                     </ul>
+                     <a href="https://garwoodtreeservices.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-3">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-3-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Outposter</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Ben</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>10 months</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack Web & SEO Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks : </span>
+                           <span>WordPress  </span>
+                        </li>
+                     </ul>
+                     <a href="https://outposter.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-4">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-4-big-800x400-v1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>UQ Sport</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>8 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack Web & SEO Developer </span>
+                        </li>
+                        <li>
+                           <span>Frameworks : </span>
+                           <span>WordPress</span>
+                        </li>
+                     </ul>
+                     <a href="https://uqsport.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-5">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-5-big-800x400-v2.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>OZ Mobiles</h2>
+                           <span>Shopify</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>15 months</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack E-commerce Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>Shopify Plus</span>
+                        </li>
+                     </ul>
+                     <a href="https://ozmobiles.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-6">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-6-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Urbbana</h2>
+                           <span>Shopify</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>8 months</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack E-commerce Developer</span>
+                        </li>
+                        <li>
+                           <span> Frameworks : </span>
+                           <span>Shopify Plus</span>
+                        </li>
+                     </ul>
+                     <a href="https://urbbana.com/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-7">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-7-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Cliqued Digital</h2>
+                           <span>Shopify</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>12 months</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack Web & SEO Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>Shopify</span>
+                        </li>
+                     </ul>
+                     <a href="https://cliqueddigital.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-8">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-8-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Reface</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>5 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress Engineer </span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress</span>
+                        </li>
+                     </ul>
+                     <a href="https://refacekitchensbathrooms.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-9">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-9-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Taverner</h2>
+                           <span>Shopify</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>5 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack E-commerce Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>Shopify</span>
+                        </li>
+                     </ul>
+                     <a href="https://tavernerpromotions.com/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-10">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-10-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>SEQ Snake</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>2 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress Engineer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress</span>
+                        </li>
+                     </ul>
+                     <a href="https://seqsnakecatchers.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-11">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-11-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>SSTC</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>5 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress Engineer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress</span>
+                        </li>
+                     </ul>
+                     <a href="https://sstc.net.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-12">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-12-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Smoked Garage</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Chris</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>5 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress Engineer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress</span>
+                        </li>
+                     </ul>
+                     <a href="https://smokedgarage.com.au/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-13">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-13-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Addiction Pet</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Jerel</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>15 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress / WooCommerce Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress, Woocommerce</span>
+                        </li>
+                     </ul>
+                     <a href="https://addictionpet.com/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-14">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-14-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Awesome Pawsome</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Jerel</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>5 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress / WooCommerce Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress, Woocommerce</span>
+                        </li>
+                     </ul>
+                     <a href="https://awesomepawsome.com/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-15">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-15-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Weibo Medical</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Anson</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>2 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress Engineer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress</span>
+                        </li>
+                     </ul>
+                     <a href="https://weibomedical.com/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+         <!-- Single Project Details Starts -->
+         <div class="single-project-item" id="project-16">
+            <!-- Back Portfolio Starts -->
+            <div class="back-to-portfolio" onclick="backToPorfolio()">
+               <div class="squares">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
+            <!-- Back Portfolio Ends -->
+            <div>
+               <!-- Portfolio Single Item Details Starts -->
+               <div class="details">
+                  <div class="heading">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/project-16-big-800x400-1.jpg" alt="">
+                     <div>
+                        <div>
+                           <h2>Earth Stone Ovens</h2>
+                           <span>WordPress</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content">
+                     <ul>
+                        <li>
+                           <span>Client :</span>
+                           <span>Stefano</span>
+                        </li>
+                        <li>
+                           <span>Duration :</span>
+                           <span>3 month</span>
+                        </li>
+                        <li>
+                           <span>Role :</span>
+                           <span>Full Stack WordPress / WooCommerce Developer</span>
+                        </li>
+                        <li>
+                           <span>Frameworks :</span>
+                           <span>WordPress, Woocommerce</span>
+                        </li>
+                     </ul>
+                     <a href="https://earthstoneovens.com/" target="_blank" class="btn-secondary">
+                        <div>
+                           <span> Preview </span>
+                           <span> Preview </span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Portfolio Single Item Details Ends -->
+               <!-- Portfolio Navigation Starts -->
+               <div class="arrows">
+                  <div>
+                     <div class="arrow up top-project" onclick="TopProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 19 L 20.5 13 L 26 19 L 23 19 L 23 25 L 18 25 L 18 19 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="arrow down bottom-project" onclick="BottomProject()">
+                        <div class="arrow-inner">
+                           <svg class="main-arrow" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                           <svg class="hover" width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                              <path d="M 15 21 L 20.5 27 L 26 21 L 23 21 L 23 15 L 18 15 L 18 21 z"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Portfolio Navigation Ends -->
+            </div>
+         </div>
+         <!-- Single Project Details Ends -->
+      </div>
+      <!-- Portfolio Items Details Ends -->
+      <!-- About Section Starts -->
+      <div id="about" class="about">
+         <div class="overlay" id="overlay"></div>
+         <div class="content" id="content">
+            <!-- Close About Section Starts -->
+            <div class="close" id="close">
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero">
+                  <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
+                     <g transform="scale(8.53333,8.53333)">
+                        <path d="M7,4c-0.25587,0 -0.51203,0.09747 -0.70703,0.29297l-2,2c-0.391,0.391 -0.391,1.02406 0,1.41406l7.29297,7.29297l-7.29297,7.29297c-0.391,0.391 -0.391,1.02406 0,1.41406l2,2c0.391,0.391 1.02406,0.391 1.41406,0l7.29297,-7.29297l7.29297,7.29297c0.39,0.391 1.02406,0.391 1.41406,0l2,-2c0.391,-0.391 0.391,-1.02406 0,-1.41406l-7.29297,-7.29297l7.29297,-7.29297c0.391,-0.39 0.391,-1.02406 0,-1.41406l-2,-2c-0.391,-0.391 -1.02406,-0.391 -1.41406,0l-7.29297,7.29297l-7.29297,-7.29297c-0.1955,-0.1955 -0.45116,-0.29297 -0.70703,-0.29297z"></path>
+                     </g>
+                  </g>
+               </svg>
+            </div>
+            <!-- Close About Section Ends -->
+            <!-- About Content Starts -->
+            <div class="content-container" id="contentcontainer">
+               <!-- Photo Starts -->
+               <div class="img-container">
+                 <picture>
+                     <source media="(min-width:990px)" srcset="https://ambengran.com/wp-content/uploads/2026/07/arg-picture-330x410-1.jpg">
+                     <img src="https://ambengran.com/wp-content/uploads/2026/07/arg-picture-160x160-1.jpg" alt="mobile picture">
+                  </picture>
+               </div>
+               <!-- Photo Ends -->
+               <!-- Personal Informations Starts -->
+               <div>
+                  <div class="infos-about">
+                     <h3>Alvin Rey Granada</h3>
+                     <div class="infos-about-inner">
+                        <table class="">
+                           <tr>
+                              <td>Job</td>
+                              <td>Web Developer & SEO Specialist</td>
+                           </tr>
+                           <tr>
+                              <td>Age</td>
+                              <td>35 years</td>
+                           </tr>
+                           <tr>
+                              <td>Nationality</td>
+                              <td>Filipino</td>
+                           </tr>
+                        </table>
+                        <table>
+                           <tr>
+                              <td>Freelance</td>
+                              <td>Available</td>
+                           </tr>
+                           <tr>
+                              <td>Langages</td>
+                              <td>English, Tagalog, Cebuano</td>
+                           </tr>
+                           <tr>
+                              <td>Resume</td>
+                              <td><a class="accent" href="https://ambengran.com/wp-content/uploads/2026/08/AlvinReyGranada_WebDeveloper_SEO_Specialist.pdf">Download</a></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="facts">
+                        <div class="box-stats">
+                           <h4>
+                              <script>
+                                 // Set start date
+                                 const startYear = 2012;
+                                 const currentYear = new Date().getFullYear();
+                                 let yearsExperience = currentYear - startYear;
+
+                                 // Be more precise about months
+                                 const startMonth = 5; // June (0-11, so June = 5)
+                                 const currentMonth = new Date().getMonth();
+
+                                 if (currentMonth < startMonth) {
+                                       yearsExperience--; // Haven't reached the anniversary month yet
+                                 }
+
+                                 document.write(yearsExperience);
+                              </script>
+                           </h4>
+                           <p>years <span>experience</span>
+                           </p>
+                        </div>
+                        <div class="box-stats">
+                           <h4>55</h4>
+                           <p>completed <span>projects</span>
+                           </p>
+                        </div>
+                        <div class="box-stats">
+                           <h4>15</h4>
+                           <p>Happy <span>customers</span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Personal Informations Ends -->
+            </div>
+            <!-- About Content Ends -->
+         </div>
+      </div>
+      <!-- About Section Ends -->
+      <!-- Animated Layers Starts -->
+      <div class="layers active-layer opacity-0">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <div class="layers not-active-layer">
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <!-- Animated Layers Ends -->
+      <!-- Template JS File -->
+      <script src="<?php bloginfo('template_directory'); ?>/js/custom_no_sound.js"></script>
+   </body>
+</html>
